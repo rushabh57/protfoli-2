@@ -214,7 +214,7 @@ const projects = [
     proName: "VanLinker",
     proDisc: "Idea of making math more enjoyable",
     ProLink: `https://rushabh57.github.io/vanLinker/`,
-    ProImg: `assets/imgs/mockups/vanLinker.png`,
+    ProImg: `${defaultMockup}`,
     OL: `${OL_IMG}`,
     language: "js",
   },
