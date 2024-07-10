@@ -204,6 +204,17 @@ hamMenuBtn.addEventListener("click", () => {
       duration: 0.88,
       duration: 0.7,
     });
+    document.querySelectorAll(".navLinks").forEach((navlink) => {
+      navlink.addEventListener("click", () => {
+        gsap.to(".navLinks", {
+          duration: 0.7,
+          bottom: "100%",
+          ease: "power4",
+        });
+        Ham_tl.reverse(1);
+        hamMenuBtnClick = false;
+      });
+    });
   } else {
     hamMenuBtnClick = false;
     document.body.style.overflowY = "scroll";
