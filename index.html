@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="shortcut icon" href="./assets/imgs/icons/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <header>
+    </header>
+    <div class="loadingScreen" id="loadingScreen">
+        <h1 class="ani-load-name">
+            <div class="load-latter-box">
+                <div>R</div>
+                <div>R</div>
+            </div>
+            <div class="load-latter-box l-delay">
+                <div>M</div>
+                <div>M</div>
+            </div>
+
+        </h1>
+        <div class="loading-progresion">
+            <div class="loadingBar-container">
+                <div class="loadingBar"></div>
+            </div>
+            <p class="loadPercentage">0%</p>
+        </div>
+    </div>
+    <nav>
+        <div class="logo">
+            <h3>RM</h3>
+        </div>
+        <ul class="navLinks">
+            <li class="navlink">
+                <a class="link" href="#" onclick="smoothScroll(event)">home</a>
+                <div class="active-nav-link"></div>
+            </li>
+            <li class="navlink">
+                <a class="link" href="#skill" onclick="smoothScroll(event)">skills</a>
+            </li>
+            <li class="navlink">
+                <a class="link" href="#about" onclick="smoothScroll(event)">about</a>
+            </li>
+            <li class="navlink">
+                <a class="link" href="#Project" onclick="smoothScroll(event)">Project</a>
+            </li>
+            <li class="navlink">
+                <a class="link" href="#footer" onclick="smoothScroll(event)">connect</a>
+            </li>
+        </ul>
+
+        <label class="darkmodetoggle" for="darmode">
+            <input type="checkbox" name="toggle" id="darmode" />
+            <div class="squere-t-box">
+                <img class="icon-toggle" src="/assets/imgs/icons/sun-icon.svg" alt="">
+            </div>
+        </label>
+
+        <div class="hb-container">
+            <div class="hb">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="mesh-gradient">
+            <div class="mesh-circle"></div>
+            <div class="mesh-circle"></div>
+            <div class="mesh-circle"></div>
+        </div>
+        <div class="wrapper">
+            <div class="b-block">
+                <h1 class="hero-heading">
+                    hey , i am RM
+                </h1>
+            </div>
+            <div class="b-block">
+                <p class="hero-sub-heading">
+                    Passionate web developer creating elegant and responsive websites to bring ideas to life, with a
+                    strong foundation in frontEnd Languages.
+                </p>
+            </div>
+        </div>
+        <div class="dark-elips">
+            <div class="dark-dot"></div>
+            <div class="dark-dot secodn"></div>
+        </div>
+
+    </div>
+
+    <div class="skills-section" id="skill">
+        <h3 class="heading-all-sec">Skills</h3>
+        <div class="wrapper flex-skills">
+            <div class="skill-container">
+                <div class="frontEnd skill"></div>
+                <div class="BackEnd skill"></div>
+                <div class="DB skill"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="other-skills">
+        <h5 class="os-title">other skills</h5>
+        <ul class="os-collaction-skills">
+            <li class="os-skill">
+                <p>Communication</p>
+            </li>
+            <div class="dot"></div>
+            <li class="os-skill">
+                <p>Team Work</p>
+            </li>
+            <div class="dot"></div>
+            <li class="os-skill">
+                <p>Creativity</p>
+            </li>
+            <div class="dot"></div>
+            <li class="os-skill">
+                <p>Project Management</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="about-section" id="about">
+        <h3 class="heading-all-sec">about</h3>
+        <div class="wrapper about-grid">
+            <div class="about-me">
+                <div class="a-block">
+                    <h3 class="a-m-h">Hey,</h3>
+                </div>
+                <div class="a-block">
+                    <h3 class="a-m-h">My Name Is rushabh</h3>
+                </div>
+                <div class="b-block">
+                    <p class="a-m-p">As a fresh web developer with a keen interest in both front-end and back-end
+                        development, I am excited to embark on a journey of continuous learning and growth. I am
+                        passionate about creating engaging and user-friendly websites and applications that not only
+                        look great but also deliver a seamless user experience.</p>
+                </div>
+                <a href="./assets/imgs/Avatar.png" download="rushabh-Resume" class="d-cv-btn">
+                    <p>CV</p>
+                    <div class="btn-icon-container">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="svgDownaload">
+
+                            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                            <g id="SVGRepo_iconCarrier">
+                                <path id="frst" d="M22 20.8201C15.426 22.392 8.574 22.392 2 20.8201"
+                                    stroke="var(--saltBlack)" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <g id="arrowDown">
+                                    <path id="secnd" d="M11.9492 2V16" stroke="var(--saltBlack)" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="thred"
+                                        d="M16.8996 11.8L13.3796 15.4099C13.2011 15.5978 12.9863 15.7476 12.7482 15.8499C12.5101 15.9521 12.2538 16.0046 11.9946 16.0046C11.7355 16.0046 11.4791 15.9521 11.241 15.8499C11.0029 15.7476 10.7881 15.5978 10.6096 15.4099L7.09961 11.8"
+                                        stroke="var(--saltBlack)" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                            </g>
+
+                        </svg>
+                    </div>
+                </a>
+            </div>
+            <div class="style-about-me">
+                <div class="card">
+                    <div class="c-sec">
+                        <div class="avatar">
+                            <img src="./assets/imgs/Avatar.png" alt="">
+                        </div>
+                        <div class="name">
+                            Malvaniya Rushabh
+                            <div class="profestion">
+                                Web developer
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm-msg">
+                        <h4>What you like in web dev:</h4>
+                        <p>i like do do stuff that i don't know</p>
+                        <a href="#Project" class="btn-smMsg" onclick="smoothScroll(event)">See my Projetc's</a>
+                        <hr class="divider">
+                        <!-- otherworks links -->
+                        <div class="o-w-links"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-section" id="Project">
+        <h3 class="heading-all-sec">projects</h3>
+        <div class="pro-counter-sec">
+            <p class="title">Projects:</p>
+            <p id="count"></p>
+        </div>
+        <div class="wrapper">
+            <div class="btn-for-more-project">
+                <button class="see-more-btn" id="expandProjectSec">
+                    <p>see More</p>
+                    <img src="https://www.svgrepo.com/show/521115/chevron-down.svg" alt="">
+                </button>
+            </div>
+            <div class="pro-cards-container">
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="footer">
+        <div class="grid-temp-two">
+            <div class="one-side">
+                <h3>RM</h3>
+                <p>Passionate web developer creating elegant and responsive websites to bring ideas to life, with a
+                    strong foundation in frontEnd Languages.</p>
+                <div class="footer-links">
+                    <a href="">hero-section</a>
+                    <span>|</span>
+                    <a href="">skills</a>
+                    <span>|</span>
+                    <a href="">about-me</a>
+                    <span>|</span>
+                    <a href="">projects</a>
+                </div>
+            </div>
+            <div class="another-side">
+                <div class="contect-me">
+                    <p>email:</p>
+                    <input type="checkbox" name="" id="email-b">
+                    <label for="email-b" class="email-info" onclick="copyMail()">
+                        <img src="./assets/imgs/Avatar.png" alt="">
+                        <p class="mail">rushabhmalvaniya12@gmail.com</p>
+
+                    </label>
+                </div>
+                <div class="other-links-footer">
+                    <p>Also is on this platfomrs:</p>
+                    <div class="f-links"></div>
+                </div>
+                <form action="">
+                    <p>connect with me:</p>
+                    <div class="form-area">
+                        <input type="text" placeholder="your email" />
+                        <input type="text" placeholder="your message" />
+                        <input type="submit" value="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer-copy-rights">
+            <p>All the copyrights are belong <a href="">RM</a></p>
+        </div>
+    </footer>
+
+    <div class="top-btn">
+        <img src="./assets/imgs/icons/chevron-up.png" alt="">
+    </div>
+
+
+    <!-- Lenis smooth scrolling -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+    <!-- GSAP LINKS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script>
+
+
+
+
+
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="./assets/scripts/script.js"></script>
+    <script src="./assets/scripts/projects.js"></script>
+    <script src="./assets/scripts/skills.js"></script>
+    <script src="./assets/scripts/links.js"></script>
+    <script src="./assets/scripts/animation.js"></script>
+
+    <script>
+        const lenis = new Lenis({
+            duration: 1.2,
+            easing: (t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t)),
+            direction: "vertical",
+            gestureDirection: "vertical",
+            smooth: true,
+            smoothTouch: false,
+            touchMultiplier: 2,
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+    </script>
+
+
+</body>
+
+</html>

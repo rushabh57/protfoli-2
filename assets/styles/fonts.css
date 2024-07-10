@@ -1,0 +1,20 @@
+/* Define Font Face */
+@font-face {
+    font-family: 'LibreBaskerville-Regular';
+    src: url('E:/$_MyProject/protfoli-2/assets/fonts/Libre_Baskerville/LibreBaskerville-Regular.woff2') format('woff2'),
+         url('E:/$_MyProject/protfoli-2/assets/fonts/Libre_Baskerville/LibreBaskerville-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url('path-to-font2.woff2') format('woff2'),
+         url('path-to-font2.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Font3';
+    src: url('path-to-font3.woff2') format('woff2'),
+         url('path-to-font3.woff') format('woff');
+}
